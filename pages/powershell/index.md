@@ -4,16 +4,16 @@ Reference documentation for Brownserve PowerShell modules.
 
 <div class="grid cards" markdown>
 
-- **[Brownserve.PSCommon](https://docs.brownserve.co.uk/Brownserve.PSCommon/)**
+- **[Brownserve.PSCommon](https://docs.brownserve.co.uk/PSCommon/)**
 
     Common utility cmdlets for file I/O, content formatting, assertions, and
     cross-platform helpers used across Brownserve projects.
 
-- **[Brownserve.PSSourceControl](https://docs.brownserve.co.uk/Brownserve.PSSourceControl/)**
+- **[Brownserve.PSSourceControl](https://docs.brownserve.co.uk/PSSourceControl/)**
 
     Git and GitHub source control operations used across Brownserve projects.
 
-- **[Brownserve.PSBuildTools](https://docs.brownserve.co.uk/Brownserve.PSBuildTools/)**
+- **[Brownserve.PSBuildTools](https://docs.brownserve.co.uk/PSBuildTools/)**
 
     Changelog, versioning, NuGet, PowerShell module scaffolding, and build
     notification helpers used across Brownserve projects.
