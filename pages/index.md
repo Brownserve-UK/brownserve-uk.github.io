@@ -4,7 +4,7 @@ Welcome to the Brownserve documentation site.
 
 <div class="grid cards" markdown>
 
-- **[PowerShell Modules](./powershell/)**
+- **[PowerShell Modules](powershell/index.md)**
 
     Reference documentation and build guides for Brownserve PowerShell modules.
 

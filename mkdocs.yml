@@ -28,6 +28,7 @@ nav:
   - Home: index.md
   - PowerShell:
     - Modules: powershell/index.md
+    - Style Guidelines: powershell/style-guidelines.md
     - Building: powershell/building.md
     - Releasing: powershell/releasing.md
 
