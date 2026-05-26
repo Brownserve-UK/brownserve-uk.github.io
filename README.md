@@ -1,2 +1,3 @@
-# brownserve-uk.github.io
-Brownserve GitHub Pages site
+# docs.brownserve.co.uk
+
+Brownserve Documentation

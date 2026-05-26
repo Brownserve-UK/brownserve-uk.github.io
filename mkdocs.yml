@@ -1,0 +1,40 @@
+site_name: Brownserve Documentation
+site_url: https://docs.brownserve.co.uk/
+repo_url: https://github.com/Brownserve-UK/docs.brownserve.co.uk
+repo_name: Brownserve-UK/docs.brownserve.co.uk
+docs_dir: pages
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Building: building.md
+  - Releasing: releasing.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
