@@ -26,8 +26,10 @@ plugins:
 
 nav:
   - Home: index.md
-  - Building: building.md
-  - Releasing: releasing.md
+  - PowerShell:
+    - Modules: powershell/index.md
+    - Building: powershell/building.md
+    - Releasing: powershell/releasing.md
 
 markdown_extensions:
   - pymdownx.highlight:
