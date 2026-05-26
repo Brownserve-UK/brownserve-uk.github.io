@@ -14,8 +14,7 @@ All these cmdlets handle path separators automatically and will ensure that the 
 
 ### OS specific cmdlets
 
-By default we treat all cmdlets as cross-platform but there may be instances where your code will only work on certain operating systems (e.g. `Install-ChocolateyPackage`), in these cases you should call `Test-OperatingSystem` at the beginning of your cmdlet with the supported OSes as the first (and only) parameter.
-If the current OS isn't in the supported list then an exception will be raised.
+By default we treat all cmdlets as cross-platform. If your code will only work on certain operating systems you should call [`Test-OperatingSystem`](https://docs.brownserve.co.uk/PSCommon/Cmdlet%20reference/Test-OperatingSystem/) at the beginning of your cmdlet with the supported OSes as the parameter. An exception will be raised if the current OS is not in the supported list.
 
 **Example:**  
 In this example we're running on a Linux based operating system so the cmdlet will run successfully:
